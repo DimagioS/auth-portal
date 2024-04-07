@@ -1,0 +1,28 @@
+/* Reset and base styles  */
+body {
+	margin: 0px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+  text-decoration: none;
+}
+
+a:hover  {
+  text-decoration: none;
+}
+
+/* Form */
+
+button, 
+input[type="submit"],
+label {
+  cursor: pointer;
+}
